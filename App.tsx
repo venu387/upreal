@@ -69,8 +69,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   logo: {
-    width: 300,
-    height: 90,
+    width: 280,
+    height: 45,
     marginBottom: 35,
   },
   loginButton: {

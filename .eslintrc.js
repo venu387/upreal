@@ -3,10 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: [
-    'plugin:react/recommend',
-    'plugin:prettier/recommend',
-  ],
+  extends: ['plugin:react/recommend', 'plugin:prettier/recommend'],
   overrides: [],
   parser: '@typescript-elint/parser',
   parserOptions: {
@@ -16,9 +13,8 @@ module.exports = {
   plugins: ['react', '@typescript-eslint', 'prettier'],
   rules: {
     'react/prop-types': ['off'],
-    "indent": ["error", "tab"],
+    indent: ['error', 'tab'],
     'react/react-in-jsx-scope': 'off',
-    "indent": ["error", 2],
     'prettier/prettier': [
       'error',
       {
