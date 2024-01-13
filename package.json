@@ -1,6 +1,7 @@
 {
   "name": "upreal",
   "version": "0.0.1",
+  "description": "UpReal",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
